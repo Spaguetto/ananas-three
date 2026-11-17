@@ -1,0 +1,11 @@
+# Archivo familiar privado y bases de datos locales
+data/
+.env
+.env.*
+!.env.example
+node_modules/
+dist/
+coverage/
+*.log
+__pycache__/
+

@@ -1,0 +1,15 @@
+import { fileURLToPath } from 'node:url';
+import { resolve } from 'node:path';
+import { mkdirSync } from 'node:fs';
+import { Store } from './store.js';
+import { bootstrap } from './importer.js';
+import { buildApp } from './app.js';
+const root=fileURLToPath(new URL('../../../',import.meta.url));
+const documentRoot=resolve(process.env.DOCUMENT_ROOT??resolve(root,'data'));
+const databasePath=resolve(process.env.DATABASE_PATH??resolve(root,'data/database/family.sqlite'));
+mkdirSync(documentRoot,{recursive:true});
+const store=new Store(databasePath);bootstrap(store,documentRoot);
+const app=await buildApp(store,documentRoot);
+await app.listen({host:'127.0.0.1',port:3001});
+console.log('Archivo familiar API: http://127.0.0.1:3001/api/health');
+for(const signal of ['SIGINT','SIGTERM'] as const)process.on(signal,async()=>{await app.close();store.close();process.exit(0);});
