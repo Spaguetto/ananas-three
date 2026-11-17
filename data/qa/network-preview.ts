@@ -1,0 +1,16 @@
+import {Store} from '../../apps/api/src/store';
+import {NetworkStore} from '../../apps/api/src/network';
+import {buildApp} from '../../apps/api/src/app';
+import {nodeInput,connectionInput} from '../../packages/contracts/network';
+import {createServer} from 'vite';
+import config from '../../apps/web/vite.config';
+const store=new Store(':memory:');const network=new NetworkStore(store);
+const person=(name:string)=>store.createPerson({name,summary:'Identidad ficticia usada únicamente para probar la interfaz.',lifeStatus:'unknown'});
+const ana=person('Ana · ejemplo'),bruno=person('Bruno · ejemplo'),clara=person('Clara · ejemplo'),dario=person('Darío · ejemplo');
+const first=network.save(nodeInput.parse({kind:'union',label:'Primera unión · ejemplo',date:'1970',endDate:'1980',unionState:'divorced'}));
+const place=network.save(nodeInput.parse({kind:'place',label:'Lugar compartido · ejemplo'}));
+for(const [sourceId,targetId,type] of [[ana.id,first.id,'spouse'],[bruno.id,first.id,'spouse'],[dario.id,first.id,'union_child'],[ana.id,place.id,'origin'],[clara.id,place.id,'origin']])network.link(connectionInput.parse({sourceId,targetId,type,evidence:'Datos ficticios para la prueba de interfaz.'}));
+const app=await buildApp(store,'data/qa');await app.listen({host:'127.0.0.1',port:3002});
+const web=await createServer({...config,configFile:false,server:{host:'127.0.0.1',port:5174,strictPort:true,proxy:{'/api':{target:'http://127.0.0.1:3002',configure(proxy){proxy.on('proxyReq',request=>request.setHeader('origin','http://127.0.0.1:5173'));}}}}});
+await web.listen();console.log('ISOLATED QA http://127.0.0.1:5174 — in-memory synthetic data only');
+for(const signal of ['SIGINT','SIGTERM'] as const)process.on(signal,async()=>{await web.close();await app.close();store.close();process.exit(0);});

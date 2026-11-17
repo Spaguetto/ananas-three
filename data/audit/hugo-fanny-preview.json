@@ -1,0 +1,299 @@
+{
+  "mode": "preview",
+  "backup": "C:\\Users\\User\\Desktop\\Tree\\data\\audit\\preview-hugo-fanny-1794939729155.sqlite",
+  "result": {
+    "sourceId": "d0fd19e8-5373-4fdc-8c11-e0bf7327c3fd",
+    "sha": "2a4055bdc2e748a5496d6acd1157779848bae541364f5d2d68d9475d158c100e",
+    "people": [
+      "097488e4-4a9e-401e-ab37-97d88b89854b",
+      "1938c512-91d3-4cd4-9e51-7a345210ebff",
+      "497b04dc-35a0-4e56-9456-d185caf97ea9",
+      "6980b67c-957f-4a4f-a0e1-d17aedb9d3f3",
+      "f3d78948-d0a1-44a1-ab1b-1624316a49eb",
+      "c7107013-68ed-4460-a419-91305fc7e7db",
+      "8ff687be-9b03-4cde-9998-3a4919d27bcc",
+      "6a12d2d2-f0eb-422b-bb02-3c1f79d20904",
+      "91531149-ab7f-4826-93f1-5c3296b3cbce",
+      "5ad63ac5-2ec0-4f3f-9f9e-02d3d005a65d",
+      "292f950d-4240-4351-bd0b-78ef71dec28f",
+      "2d759831-c7b8-4342-b3d5-7877025c5f9c",
+      "16891ca2-4b1d-49e7-b2ed-21126eb15854",
+      "d4e0b1e0-ee19-44e7-a69b-2a8edaecb5e5",
+      "68a515aa-ad0d-4ca5-9e09-9cfc5283b01a",
+      "30a47b40-c79b-4628-adcc-c54bc8d082f6",
+      "10170c54-57e6-46af-9d55-4f5d15417edd",
+      "8ab525ad-5984-4597-b590-6c4e4188489e",
+      "37c93c69-8f07-4e26-9b2b-8b4dd397d356",
+      "dc93ecb9-8dd5-4fa6-ad97-7ced70cf2230"
+    ],
+    "groups": [
+      {
+        "key": "nereo-gertrudis",
+        "unionId": "a479edc6-9668-4ca0-9698-f534338edd4d",
+        "partnerId": "0f540b6f-7fd8-40ca-966e-31ae61825703",
+        "parentIds": [
+          "34cc40ac-e6ee-445a-a878-efe5a860dd1a",
+          "9e63828c-1b0d-4073-b82d-9a929181ab1f"
+        ],
+        "partners": [
+          {
+            "id": "91531149-ab7f-4826-93f1-5c3296b3cbce",
+            "name": "Nereo Angel Maria Suarez Soto"
+          },
+          {
+            "id": "5ad63ac5-2ec0-4f3f-9f9e-02d3d005a65d",
+            "name": "Gertrudis Hernandez Sierra"
+          }
+        ],
+        "children": [
+          {
+            "id": "292f950d-4240-4351-bd0b-78ef71dec28f",
+            "name": "Ramón Aquileo Suárez Hernandez"
+          }
+        ]
+      },
+      {
+        "key": "francisco-nieves",
+        "unionId": "dcd137cf-a73a-44ca-a32c-e4b2916a780b",
+        "partnerId": "9fbc5d7a-14c3-4120-ac49-2742fbe106f7",
+        "parentIds": [
+          "50dc2a29-3110-4d35-b8dd-d3b673f3a97c",
+          "1877ccb9-b25d-4095-81c1-f66e78619a5f"
+        ],
+        "partners": [
+          {
+            "id": "097488e4-4a9e-401e-ab37-97d88b89854b",
+            "name": "Francisco Fonseca"
+          },
+          {
+            "id": "1938c512-91d3-4cd4-9e51-7a345210ebff",
+            "name": "Nieves Rodriguez Calderón"
+          }
+        ],
+        "children": [
+          {
+            "id": "2d759831-c7b8-4342-b3d5-7877025c5f9c",
+            "name": "Maria Esther Fonseca Rodriguez Cruz Rodriguez Calderon"
+          }
+        ]
+      },
+      {
+        "key": "ramon-esther",
+        "unionId": "323ef615-4a09-4041-b6cb-92e1e7c78c21",
+        "partnerId": "11f10b98-3449-46e0-a745-4f41607f85c8",
+        "parentIds": [
+          "9690e220-425d-4df8-a5f4-4af4789ac3f5",
+          "d8e26cae-c48f-460b-b450-460d4460f382"
+        ],
+        "partners": [
+          {
+            "id": "292f950d-4240-4351-bd0b-78ef71dec28f",
+            "name": "Ramón Aquileo Suárez Hernandez"
+          },
+          {
+            "id": "2d759831-c7b8-4342-b3d5-7877025c5f9c",
+            "name": "Maria Esther Fonseca Rodriguez Cruz Rodriguez Calderon"
+          }
+        ],
+        "children": [
+          {
+            "id": "16891ca2-4b1d-49e7-b2ed-21126eb15854",
+            "name": "Hugo Auli Suarez Fonseca"
+          }
+        ]
+      },
+      {
+        "key": "eduardo-lola",
+        "unionId": "c512c459-00e0-4b15-bcba-5c6454a5b730",
+        "partnerId": "924a185f-d56f-4650-b1cc-6254ab04a919",
+        "parentIds": [
+          "73862658-808a-497e-b306-6e35e5ed6b1c",
+          "bdb0256f-b435-41dd-97ea-648d80aaf274"
+        ],
+        "partners": [
+          {
+            "id": "c7107013-68ed-4460-a419-91305fc7e7db",
+            "name": "Eduardo Jacome Jacome"
+          },
+          {
+            "id": "f3d78948-d0a1-44a1-ab1b-1624316a49eb",
+            "name": "Lola Roca"
+          }
+        ],
+        "children": [
+          {
+            "id": "8ff687be-9b03-4cde-9998-3a4919d27bcc",
+            "name": "Carlos Julio Jacome Roca"
+          }
+        ]
+      },
+      {
+        "key": "julio-ofelia",
+        "unionId": "ac2a0e98-c770-4594-86a2-e6b34cb391dd",
+        "partnerId": "7b5dcd70-9f98-4670-ba57-7f4034daa404",
+        "parentIds": [
+          "d92fbca6-c524-48cb-8474-7a41ff42263e",
+          "7a3798a8-4669-4bbb-9e66-0b656e6ab28a"
+        ],
+        "partners": [
+          {
+            "id": "497b04dc-35a0-4e56-9456-d185caf97ea9",
+            "name": "Julio Lázaro Chaustre"
+          },
+          {
+            "id": "6980b67c-957f-4a4f-a0e1-d17aedb9d3f3",
+            "name": "Ofelia Melo"
+          }
+        ],
+        "children": [
+          {
+            "id": "6a12d2d2-f0eb-422b-bb02-3c1f79d20904",
+            "name": "Olga Maria Lázaro Melo"
+          }
+        ]
+      },
+      {
+        "key": "carlos-olga",
+        "unionId": "56736c3c-2d55-44c0-82eb-87165e1fd7b1",
+        "partnerId": "34f7a6a0-430e-4641-afdd-bdf0d74eceee",
+        "parentIds": [
+          "25c93437-e03e-41d9-b131-5aa23cab0e4f",
+          "47f271fa-0bda-403a-9275-85874eaaccc9"
+        ],
+        "partners": [
+          {
+            "id": "8ff687be-9b03-4cde-9998-3a4919d27bcc",
+            "name": "Carlos Julio Jacome Roca"
+          },
+          {
+            "id": "6a12d2d2-f0eb-422b-bb02-3c1f79d20904",
+            "name": "Olga Maria Lázaro Melo"
+          }
+        ],
+        "children": [
+          {
+            "id": "d4e0b1e0-ee19-44e7-a69b-2a8edaecb5e5",
+            "name": "Fanny Jacome Lazaro"
+          }
+        ]
+      },
+      {
+        "key": "hugo-fanny",
+        "unionId": "2a1735f1-32c1-4a0d-9adf-7be9cf8aaf0d",
+        "partnerId": "d10375b9-39be-4cc6-9a01-05641dfccbee",
+        "parentIds": [
+          "4825af9c-7bd1-4c3c-af57-e42d2fd4fccd",
+          "7a9bdf8c-c9c5-4a25-af24-2175341476b3",
+          "94b7d77c-10bc-4757-a800-05291abcd74c",
+          "30d96e87-7182-4d08-966c-30a2832ea5f0"
+        ],
+        "partners": [
+          {
+            "id": "16891ca2-4b1d-49e7-b2ed-21126eb15854",
+            "name": "Hugo Auli Suarez Fonseca"
+          },
+          {
+            "id": "d4e0b1e0-ee19-44e7-a69b-2a8edaecb5e5",
+            "name": "Fanny Jacome Lazaro"
+          }
+        ],
+        "children": [
+          {
+            "id": "8ab525ad-5984-4597-b590-6c4e4188489e",
+            "name": "Victor Hugo"
+          },
+          {
+            "id": "30a47b40-c79b-4628-adcc-c54bc8d082f6",
+            "name": "Olga Viviana"
+          }
+        ]
+      },
+      {
+        "key": "olga-carlos",
+        "unionId": "91732fc2-f7a1-49ce-98a7-635b8233a2f6",
+        "partnerId": "d8bb34e9-68c4-4f3c-9ec7-4fa8e5bf913a",
+        "parentIds": [
+          "68105863-5259-41b7-92a0-94b8feee8d38",
+          "0a390291-7a7a-4c88-b5b4-107bd9198d14",
+          "3b2b6183-f544-4455-b2d6-ebec029eb2bd",
+          "3fd834b4-7b7f-4f05-b7c8-8bdc85f93be0"
+        ],
+        "partners": [
+          {
+            "id": "30a47b40-c79b-4628-adcc-c54bc8d082f6",
+            "name": "Olga Viviana"
+          },
+          {
+            "id": "10170c54-57e6-46af-9d55-4f5d15417edd",
+            "name": "Carlos Antonio Porto Salvar"
+          }
+        ],
+        "children": [
+          {
+            "id": "37c93c69-8f07-4e26-9b2b-8b4dd397d356",
+            "name": "Ana María Porto Suárez"
+          },
+          {
+            "id": "dc93ecb9-8dd5-4fa6-ad97-7ced70cf2230",
+            "name": "Maria Jose Porto Suárez"
+          }
+        ]
+      },
+      {
+        "key": "victor-laila",
+        "unionId": "c0a21a1a-0c81-4bc7-bfba-8b2614d419c2",
+        "partnerId": "e3aded02-31ee-45fb-a641-c5a0f5f02a1f",
+        "parentIds": [],
+        "partners": [
+          {
+            "id": "8ab525ad-5984-4597-b590-6c4e4188489e",
+            "name": "Victor Hugo"
+          },
+          {
+            "id": "68a515aa-ad0d-4ca5-9e09-9cfc5283b01a",
+            "name": "Laila Luz Páez Arengas"
+          }
+        ],
+        "children": []
+      }
+    ],
+    "notes": [
+      "Alcance autorizado: Hugo y Fanny, sus padres y abuelos, sus hijos, las parejas de estos y sus dos nietas mostradas. No se agregan las ramas Gandur ni los hermanos de la pareja.",
+      "Se reutilizan las 20 fichas existentes; no se fusionan identidades, no se completan apellidos, ni se alteran nombres, fechas, campos personales o revisiones previas.",
+      "Todos los vínculos nuevos quedan pendientes de cotejo. Las parejas y los nodos de unión no afirman matrimonio, fechas, vigencia ni naturaleza biológica de la filiación.",
+      "Los nombres completos de Nereo, Gertrudis y Nieves se cotejan con los registros 148, 149, 154 y 156 y las filiaciones ya guardadas.",
+      "Esta fuente es una transcripción descriptiva de las imágenes y notas del chat del 17 de noviembre de 2026; no es un archivo original de imagen ni un acta original."
+    ]
+  },
+  "deltas": {
+    "people": 0,
+    "personFields": 0,
+    "assertions": 20,
+    "relationships": 21,
+    "relationshipEvidence": 29,
+    "graphNodes": 9,
+    "graphConnections": 28,
+    "graphCitations": 28,
+    "sources": 1,
+    "importRecords": 0
+  },
+  "checks": {
+    "priorRowsUnchanged": true,
+    "replayUnchanged": true,
+    "foreignKeys": true,
+    "integrity": true,
+    "all20PeopleReachable": true
+  },
+  "stats": {
+    "people": 289,
+    "relationships": 118,
+    "connections": 56,
+    "sources": 7,
+    "pending": 624,
+    "records": 439,
+    "unidentified": 114,
+    "candidates": 0,
+    "unlinked": 187,
+    "defaultPersonId": "292f950d-4240-4351-bd0b-78ef71dec28f"
+  }
+}

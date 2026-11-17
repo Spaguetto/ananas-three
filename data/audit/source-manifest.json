@@ -1,0 +1,34 @@
+{
+  "sources": [
+    {
+      "name": "Suárez Árbol Genealógico.csv",
+      "sha256": "5cef3faf27d983747a4aefb5c0ee4606ee2487b1c8d1263c674ff709f4ea9938",
+      "bytes": 37737,
+      "path": "data/originals/5cef3faf27d983747a4aefb5c0ee4606ee2487b1c8d1263c674ff709f4ea9938/Suárez Árbol Genealógico.csv"
+    },
+    {
+      "name": "Texto pegado.txt",
+      "sha256": "a5635eac8359faefd979d910cd4a019054c2f8c514bf91ff473e503a0b55bfcc",
+      "bytes": 29153,
+      "path": "data/originals/a5635eac8359faefd979d910cd4a019054c2f8c514bf91ff473e503a0b55bfcc/Texto pegado.txt"
+    },
+    {
+      "name": "codex-clipboard-6726ef53-152f-4066-bd3d-b101f944ed61.png",
+      "sha256": "f92688cf67e1f3add4da578ce94edae7b241508e3b1e802fbdc95a50610a77f5",
+      "bytes": 138390,
+      "path": "data/originals/f92688cf67e1f3add4da578ce94edae7b241508e3b1e802fbdc95a50610a77f5/codex-clipboard-6726ef53-152f-4066-bd3d-b101f944ed61.png"
+    },
+    {
+      "name": "codex-clipboard-70585cf1-642e-4ea0-9f8b-467f920cede0.png",
+      "sha256": "ceb555877edf094128d010e4f86430881964faef05311995be3fd016a7eec7a2",
+      "bytes": 36934,
+      "path": "data/originals/ceb555877edf094128d010e4f86430881964faef05311995be3fd016a7eec7a2/codex-clipboard-70585cf1-642e-4ea0-9f8b-467f920cede0.png"
+    },
+    {
+      "name": "codex-clipboard-7326d689-5218-44ae-9329-922fb9d0112e.png",
+      "sha256": "fbf88e93ddb8509cb07641f1baa6a72270edb671a59a3dc55d7cbe3af06598fa",
+      "bytes": 525541,
+      "path": "data/originals/fbf88e93ddb8509cb07641f1baa6a72270edb671a59a3dc55d7cbe3af06598fa/codex-clipboard-7326d689-5218-44ae-9329-922fb9d0112e.png"
+    }
+  ]
+}

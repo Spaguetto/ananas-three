@@ -1,0 +1,134 @@
+{
+  "version": 1,
+  "sourceDate": "2026-11-17",
+  "expected": {
+    "11": "Francisco Fonseca",
+    "12": "Nieves Rodriguez Calderón",
+    "116": "Julio Lázaro Chaustre",
+    "117": "Ofelia Melo",
+    "118": "Lola Roca",
+    "119": "Eduardo Jacome Jacome",
+    "120": "Carlos Julio Jacome Roca",
+    "121": "Olga Maria Lázaro Melo",
+    "148": "Nereo Angel Maria Suarez Soto",
+    "149": "Gertrudis Hernandez Sierra",
+    "154": "Ramón Aquileo Suárez Hernandez",
+    "156": "Maria Esther Fonseca Rodriguez Cruz Rodriguez Calderon",
+    "187": "Hugo Auli Suarez Fonseca",
+    "210": "Fanny Jacome Lazaro",
+    "317": "Laila Luz Páez Arengas",
+    "318": "Olga Viviana",
+    "319": "Carlos Antonio Porto Salvar",
+    "320": "Victor Hugo",
+    "360": "Ana María Porto Suárez",
+    "361": "Maria Jose Porto Suárez"
+  },
+  "groups": [
+    {
+      "key": "nereo-gertrudis",
+      "pair": [
+        148,
+        149
+      ],
+      "children": [
+        154
+      ],
+      "evidence": "La transcripción del bautismo de Hugo identifica a Nereo Suárez y Gertrudis Hernández como abuelos paternos. El registro 154 identifica a ambos como padres de Ramón Aquileo; los registros 148 y 149 y los vínculos ya existentes resuelven sus fichas completas."
+    },
+    {
+      "key": "francisco-nieves",
+      "pair": [
+        11,
+        12
+      ],
+      "children": [
+        156
+      ],
+      "evidence": "La transcripción del bautismo de Hugo identifica a Francisco Fonseca y Nieves Rodríguez como abuelos maternos. El registro 156 identifica a ambos como padres de María Ester; se reutilizan las identidades y filiaciones existentes."
+    },
+    {
+      "key": "ramon-esther",
+      "pair": [
+        154,
+        156
+      ],
+      "children": [
+        187
+      ],
+      "evidence": "El bautismo transcrito de Hugo lo identifica como hijo de Ramón Aquileo Suárez y Ester Fonseca. La imagen 2 muestra la unión entre Ramón Aquileo y María Esther. La correspondencia de nombres se conserva como pendiente de revisión."
+    },
+    {
+      "key": "eduardo-lola",
+      "pair": [
+        119,
+        118
+      ],
+      "children": [
+        120
+      ],
+      "evidence": "Imagen 3, parte superior izquierda: círculo de unión entre Lola Roca y Eduardo Jácome Jácome, con línea descendente a Carlos Julio Jácome Roca."
+    },
+    {
+      "key": "julio-ofelia",
+      "pair": [
+        116,
+        117
+      ],
+      "children": [
+        121
+      ],
+      "evidence": "Imagen 3, parte superior: círculo de unión entre Ofelia Melo y Julio Lázaro Chaustre, con línea descendente a Olga María Lázaro Melo."
+    },
+    {
+      "key": "carlos-olga",
+      "pair": [
+        120,
+        121
+      ],
+      "children": [
+        210
+      ],
+      "evidence": "Lectura conjunta de las imágenes 1 y 3 y del contexto familiar aportado: la rama de Carlos Julio Jácome Roca y Olga María Lázaro Melo continúa hacia Fanny Jácome Lázaro. La conexión cruza los límites de los recortes; se registra como propuesta pendiente, no como verificación documental."
+    },
+    {
+      "key": "hugo-fanny",
+      "pair": [
+        187,
+        210
+      ],
+      "children": [
+        320,
+        318
+      ],
+      "evidence": "Imagen 1: círculo de unión entre Hugo Aulí Suárez Fonseca y Fanny Jácome Lázaro. El tronco desciende y se bifurca hacia Víctor Hugo y Olga Viviana."
+    },
+    {
+      "key": "olga-carlos",
+      "pair": [
+        318,
+        319
+      ],
+      "children": [
+        360,
+        361
+      ],
+      "evidence": "Imagen 1: círculo entre Olga Viviana y Carlos Antonio Porto; de él descienden Ana María Porto Suárez y María José Porto Suárez. La palabra «salvar» en el nombre importado de Carlos queda por aclarar."
+    },
+    {
+      "key": "victor-laila",
+      "pair": [
+        320,
+        317
+      ],
+      "children": [],
+      "evidence": "Imagen 1: línea horizontal entre Laila Luz Páez Arengas y Víctor Hugo. Se registra como pareja, sin afirmar matrimonio ni descendencia. Laila no se registra como hija de Hugo y Fanny."
+    }
+  ],
+  "notes": [
+    "Alcance autorizado: Hugo y Fanny, sus padres y abuelos, sus hijos, las parejas de estos y sus dos nietas mostradas. No se agregan las ramas Gandur ni los hermanos de la pareja.",
+    "Se reutilizan las 20 fichas existentes; no se fusionan identidades, no se completan apellidos, ni se alteran nombres, fechas, campos personales o revisiones previas.",
+    "Todos los vínculos nuevos quedan pendientes de cotejo. Las parejas y los nodos de unión no afirman matrimonio, fechas, vigencia ni naturaleza biológica de la filiación.",
+    "Los nombres completos de Nereo, Gertrudis y Nieves se cotejan con los registros 148, 149, 154 y 156 y las filiaciones ya guardadas.",
+    "Esta fuente es una transcripción descriptiva de las imágenes y notas del chat del 17 de noviembre de 2026; no es un archivo original de imagen ni un acta original."
+  ]
+}

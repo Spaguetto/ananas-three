@@ -1,0 +1,76 @@
+{
+  "hash": "3b95ba74",
+  "configHash": "7aa00d37",
+  "lockfileHash": "aaae9289",
+  "browserHash": "9435ddca",
+  "optimized": {
+    "react": {
+      "src": "../../../../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "e78d731d",
+      "needsInterop": true
+    },
+    "react-dom": {
+      "src": "../../../../../node_modules/react-dom/index.js",
+      "file": "react-dom.js",
+      "fileHash": "911a6a46",
+      "needsInterop": true
+    },
+    "react/jsx-dev-runtime": {
+      "src": "../../../../../node_modules/react/jsx-dev-runtime.js",
+      "file": "react_jsx-dev-runtime.js",
+      "fileHash": "94e8b86f",
+      "needsInterop": true
+    },
+    "react/jsx-runtime": {
+      "src": "../../../../../node_modules/react/jsx-runtime.js",
+      "file": "react_jsx-runtime.js",
+      "fileHash": "c445447f",
+      "needsInterop": true
+    },
+    "@xyflow/react": {
+      "src": "../../../../../node_modules/@xyflow/react/dist/esm/index.js",
+      "file": "@xyflow_react.js",
+      "fileHash": "acf8ccc6",
+      "needsInterop": false
+    },
+    "elkjs/lib/elk.bundled.js": {
+      "src": "../../../../../node_modules/elkjs/lib/elk.bundled.js",
+      "file": "elkjs_lib_elk__bundled__js.js",
+      "fileHash": "8c2df2e4",
+      "needsInterop": true
+    },
+    "lucide-react": {
+      "src": "../../../../../node_modules/lucide-react/dist/esm/lucide-react.js",
+      "file": "lucide-react.js",
+      "fileHash": "2e8b5938",
+      "needsInterop": false
+    },
+    "react-dom/client": {
+      "src": "../../../../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "2932b8fe",
+      "needsInterop": true
+    },
+    "zod": {
+      "src": "../../../../../node_modules/zod/index.js",
+      "file": "zod.js",
+      "fileHash": "f57ae1d4",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-C42JQ5TO": {
+      "file": "chunk-C42JQ5TO.js"
+    },
+    "chunk-XUCTTT5H": {
+      "file": "chunk-XUCTTT5H.js"
+    },
+    "chunk-ASEP5ZK7": {
+      "file": "chunk-ASEP5ZK7.js"
+    },
+    "chunk-PR4QN5HX": {
+      "file": "chunk-PR4QN5HX.js"
+    }
+  }
+}

@@ -1,0 +1,219 @@
+{
+  "mode": "applied",
+  "backup": "C:\\Users\\User\\Desktop\\Tree\\data\\backups\\before-crop-01-1794023159372.sqlite",
+  "result": {
+    "sourceId": "88189438-da81-438f-804d-002b32592a9a",
+    "sha": "71a66314a36a9279251bb8985eee75a77b5c7d10712ba33b8836344aa97e26da",
+    "people": 22,
+    "unions": [
+      {
+        "key": "leonidas-cristina",
+        "unionId": "b29e1527-6afc-4b26-a31d-ae795fe6f40b",
+        "partners": [
+          {
+            "id": "7af9e362-0be5-41d9-9404-5873ef7c4d57",
+            "name": "José Leonidas Moreno Piñeros"
+          },
+          {
+            "id": "d89a9f08-e714-47ac-ac67-79d3cf813535",
+            "name": "Cristina Niño Ulloa"
+          }
+        ],
+        "children": [
+          {
+            "id": "0264f9d7-01cf-467d-b06b-addb99d1db6d",
+            "name": "Alberto Moreno Niño"
+          }
+        ]
+      },
+      {
+        "key": "gloria-alberto",
+        "unionId": "f3214692-0e57-4c0b-a97f-eaffca186cf0",
+        "partners": [
+          {
+            "id": "6fa2fb1d-9e45-4c7e-991c-e9cd97d0d251",
+            "name": "Gloria Inés"
+          },
+          {
+            "id": "0264f9d7-01cf-467d-b06b-addb99d1db6d",
+            "name": "Alberto Moreno Niño"
+          }
+        ],
+        "children": [
+          {
+            "id": "96ee627c-7a5a-48d8-9c02-92c68fe89ca0",
+            "name": "Ramón Alexander Moreno Suarez"
+          },
+          {
+            "id": "42fd2526-8656-4815-a932-aeb2f3a83022",
+            "name": "Jose Alberto Moreno Suarez"
+          },
+          {
+            "id": "fc699938-2b5b-4e16-b3a9-f7e0f79000a2",
+            "name": "Johana Moreno Suarez"
+          }
+        ]
+      },
+      {
+        "key": "alicia-luis",
+        "unionId": "6996eaa7-387a-4c8a-935f-1ab317e420f3",
+        "partners": [
+          {
+            "id": "680d4b23-b279-405e-b978-c991e0af82b8",
+            "name": "Alicia Puente Dios"
+          },
+          {
+            "id": "815c6404-855e-49e0-804b-b3a044ee307b",
+            "name": "Luis Alfonso Rincon Cendalez"
+          }
+        ],
+        "children": [
+          {
+            "id": "d01d474c-3930-4fb5-9317-1737d7d6f626",
+            "name": "Kelly Nataly"
+          },
+          {
+            "id": "8feff70f-e5fa-4261-9364-75f8fcb4eaf5",
+            "name": "Ana Maria Rincón Suárez"
+          }
+        ]
+      },
+      {
+        "key": "ramon-rocio",
+        "unionId": "dfe80258-512e-4f8a-b1fb-812e53fe24d6",
+        "partners": [
+          {
+            "id": "96ee627c-7a5a-48d8-9c02-92c68fe89ca0",
+            "name": "Ramón Alexander Moreno Suarez"
+          },
+          {
+            "id": "eb68ed2b-e92d-4e0d-af6b-4efec59c48eb",
+            "name": "Rocio Eliana Dueñas Pacheco"
+          }
+        ],
+        "children": [
+          {
+            "id": "635ec5e0-f49e-4a2a-a893-75c30af4e019",
+            "name": "Felipe Moreno Dueñas"
+          }
+        ]
+      },
+      {
+        "key": "ramon-selene",
+        "unionId": "9494fb0f-b653-4814-a88b-541839047427",
+        "partners": [
+          {
+            "id": "96ee627c-7a5a-48d8-9c02-92c68fe89ca0",
+            "name": "Ramón Alexander Moreno Suarez"
+          },
+          {
+            "id": "9880b3bd-0a2a-4c8c-9652-ad1d5a11a33a",
+            "name": "Selene Patricia Charris Montaño"
+          }
+        ],
+        "children": [
+          {
+            "id": "b91eaffa-2778-4ea2-88e7-5f16d702dcba",
+            "name": "Valeria Moreno Charris"
+          }
+        ]
+      },
+      {
+        "key": "jose-angela",
+        "unionId": "09f316f7-d326-455f-ab1d-57ed2a4472a7",
+        "partners": [
+          {
+            "id": "42fd2526-8656-4815-a932-aeb2f3a83022",
+            "name": "Jose Alberto Moreno Suarez"
+          },
+          {
+            "id": "49bee6bb-7084-4f92-abc4-4908643d05e1",
+            "name": "Angela Jimenez"
+          }
+        ],
+        "children": [
+          {
+            "id": "ad0a5479-708f-445c-b1cf-5a7560c9be7f",
+            "name": "Sofia Moreno Jimenez"
+          },
+          {
+            "id": "363d44a4-290d-454b-b6e7-e8547f6b13df",
+            "name": "Alejandra Moreno Jimenez"
+          }
+        ]
+      },
+      {
+        "key": "johana-ferney",
+        "unionId": "4f591492-397d-4ef8-a545-b0e5ef7bcf63",
+        "partners": [
+          {
+            "id": "fc699938-2b5b-4e16-b3a9-f7e0f79000a2",
+            "name": "Johana Moreno Suarez"
+          },
+          {
+            "id": "0255d845-bffc-49a7-b842-3a7ada389805",
+            "name": "Ferney Rivera Arciengas"
+          }
+        ],
+        "children": [
+          {
+            "id": "f7044b3f-d22c-414f-858f-a15341725c9d",
+            "name": "Mariana Rivera"
+          }
+        ]
+      },
+      {
+        "key": "kelly-juan",
+        "unionId": "44751c47-9084-4fdc-bcb0-3b466528aa2e",
+        "partners": [
+          {
+            "id": "d01d474c-3930-4fb5-9317-1737d7d6f626",
+            "name": "Kelly Nataly"
+          },
+          {
+            "id": "b51d1ba2-5833-4b0d-9b32-0ba2dd4bef19",
+            "name": "Juan Tellez"
+          }
+        ],
+        "children": [
+          {
+            "id": "78ff5fb2-d4e3-4169-abad-0d22804f7cc5",
+            "name": "Phillip Benjamin"
+          }
+        ]
+      }
+    ],
+    "parentObservations": 24,
+    "notes": [
+      "Todas las relaciones son propuestas de lectura visual; las personas conservan sus UUID y nombres existentes.",
+      "Los círculos entre dos personas se registran como uniones o parejas de tipo no determinado; no prueban matrimonio, divorcio, vigencia ni orden temporal.",
+      "Las líneas que salen por el borde superior o izquierdo, incluidas las de Gloria y Alicia, no tienen su otro extremo visible y no se registran.",
+      "No se completan apellidos ausentes ni se trasladan fechas, lugares o estados de vida desde esta imagen.",
+      "Los nombres se cotejaron con los registros del CSV y las etiquetas de la imagen. No se fusionan identidades por apellido."
+    ]
+  },
+  "stats": {
+    "people": 289,
+    "relationships": 97,
+    "connections": 28,
+    "sources": 6,
+    "pending": 546,
+    "records": 439,
+    "unidentified": 114,
+    "candidates": 0,
+    "unlinked": 200,
+    "defaultPersonId": "292f950d-4240-4351-bd0b-78ef71dec28f"
+  },
+  "overview": {
+    "totalNodes": 297,
+    "totalPeople": 289,
+    "isolatedPeople": 200,
+    "components": 208
+  },
+  "checks": {
+    "priorRowsUnchanged": true,
+    "replayUnchanged": true,
+    "foreignKeys": true,
+    "integrity": true
+  }
+}

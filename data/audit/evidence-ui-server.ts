@@ -1,0 +1,15 @@
+import {mkdirSync,writeFileSync} from 'node:fs';
+import {resolve} from 'node:path';
+import {createServer} from 'vite';
+import config from '../../apps/web/vite.config';
+import {Store} from '../../apps/api/src/store';
+import {buildApp} from '../../apps/api/src/app';
+const root=resolve('data/audit/evidence-ui');mkdirSync(root,{recursive:true});
+writeFileSync(resolve(root,'nota-prueba.txt'),'Documento sintético para comprobar adjuntos. No es evidencia de la familia.');
+const store=new Store(':memory:');
+store.createPerson({name:'Persona de prueba A',summary:'Entorno aislado de verificación',lifeStatus:'unknown'});
+store.createPerson({name:'Persona de prueba B',summary:'Entorno aislado de verificación',lifeStatus:'unknown'});
+const api=await buildApp(store,root);await api.listen({host:'127.0.0.1',port:3002});
+const web=await createServer({...config,configFile:false,cacheDir:resolve(root,'vite-cache'),server:{host:'127.0.0.1',port:5174,strictPort:true,proxy:{'/api':{target:'http://127.0.0.1:3002',changeOrigin:true,headers:{origin:'http://127.0.0.1:5173'}}}}});
+await web.listen();console.log('Isolated evidence UI: http://127.0.0.1:5174/');
+for(const signal of ['SIGINT','SIGTERM'] as const)process.on(signal,async()=>{await web.close();await api.close();store.close();process.exit(0);});

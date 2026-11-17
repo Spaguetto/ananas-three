@@ -1,0 +1,243 @@
+{
+  "scope": "Structural audit only. Records are not unique people. No inferred edges.",
+  "csv_sha256": "5cef3faf27d983747a4aefb5c0ee4606ee2487b1c8d1263c674ff709f4ea9938",
+  "header": "No header present; the first record is data.",
+  "record_count": 439,
+  "record_widths": {
+    "1": 12,
+    "9": 427
+  },
+  "empty_record_numbers": [
+    39,
+    40,
+    45,
+    46,
+    47,
+    102,
+    126,
+    277,
+    280,
+    281,
+    392,
+    396,
+    398,
+    403,
+    405,
+    406,
+    407,
+    410,
+    414,
+    431,
+    432,
+    433,
+    434,
+    435,
+    436,
+    437,
+    438
+  ],
+  "filled_columns": {
+    "1": 412,
+    "2": 62,
+    "3": 0,
+    "4": 1,
+    "5": 0,
+    "6": 4,
+    "7": 0,
+    "8": 0,
+    "9": 47
+  },
+  "nonempty_short_records": [
+    {
+      "record": 79,
+      "cells": [
+        "Linea punteada naranja (se supone una relacion)"
+      ]
+    },
+    {
+      "record": 91,
+      "cells": [
+        "PEDRO I JOSEFA RODRIGUEZ"
+      ]
+    },
+    {
+      "record": 92,
+      "cells": [
+        "ABUELOS MATERNOS BENILDA"
+      ]
+    },
+    {
+      "record": 93,
+      "cells": [
+        "Linea punteada negra (Relacion pradrino/madrina comprobado)"
+      ]
+    },
+    {
+      "record": 94,
+      "cells": [
+        "ABUELOS MATERNOS DE NEREO"
+      ]
+    },
+    {
+      "record": 96,
+      "cells": [
+        "CONFLICTO , NO SE SABE QUIENES SON LOS PADRES"
+      ]
+    },
+    {
+      "record": 101,
+      "cells": [
+        "NO HAY MAS INFORMACION HACIA ARRIBA"
+      ]
+    },
+    {
+      "record": 106,
+      "cells": [
+        "PADRINOS CONFIRMADOS (O NO HAY MAS RELACION)"
+      ]
+    },
+    {
+      "record": 151,
+      "cells": [
+        "Amigo de Hugo suarez NEREO, PUENTE DIOS, ARENERA"
+      ]
+    }
+  ],
+  "other_column_values": [
+    {
+      "record": 189,
+      "column": 6,
+      "value": "PR"
+    },
+    {
+      "record": 192,
+      "column": 6,
+      "value": "PR"
+    },
+    {
+      "record": 195,
+      "column": 4,
+      "value": "To do"
+    },
+    {
+      "record": 195,
+      "column": 6,
+      "value": "PR"
+    },
+    {
+      "record": 201,
+      "column": 6,
+      "value": "PR"
+    }
+  ],
+  "source_labels_column_9": {
+    "MUERTE CONFIRMADA, NACIMIENTO POR CONFIRMAR": 2,
+    "MUERTE POR CONFIRMAR, RELACION CONFIRMADA": 1,
+    "NACIMIENTO CONFIRMADO": 7,
+    "NACIMIENTO CONFIRMADO, MUERTE CONFIRMADA": 1,
+    "NACIMIENTO CONFIRMADO, MUERTE POR CONFIRMAR": 5,
+    "NACIMIENTO CONFIRMADO, MUERTE POR CONFIRMAR, RELACION CONFIRMADA": 1,
+    "NACIMIENTO CONFIRMADO, RELACION CONFIRMADA": 1,
+    "NACIMIENTO POR CONFIRMAR": 5,
+    "NACIMIENTO POR CONFIRMAR, RELACION CONFIRMADA": 13,
+    "RELACION CONFIRMADA": 2,
+    "RELACION POR CONFIRMAR": 9
+  },
+  "repeated_first_cell_candidates": [
+    {
+      "normalized_label": "ascension calderon",
+      "records": [
+        4,
+        10
+      ]
+    },
+    {
+      "normalized_label": "____",
+      "records": [
+        28,
+        222,
+        226,
+        228,
+        240,
+        241,
+        242,
+        243,
+        244,
+        248,
+        249,
+        417,
+        423
+      ]
+    },
+    {
+      "normalized_label": "cuervo",
+      "records": [
+        44,
+        54,
+        57,
+        58
+      ]
+    },
+    {
+      "normalized_label": "_",
+      "records": [
+        52,
+        55,
+        56,
+        59,
+        220,
+        229,
+        251,
+        252,
+        253,
+        275
+      ]
+    },
+    {
+      "normalized_label": "hijo",
+      "records": [
+        60,
+        286
+      ]
+    },
+    {
+      "normalized_label": "_____",
+      "records": [
+        224,
+        255,
+        425,
+        426
+      ]
+    },
+    {
+      "normalized_label": "mujer",
+      "records": [
+        258,
+        283
+      ]
+    },
+    {
+      "normalized_label": "otro",
+      "records": [
+        263,
+        264,
+        381
+      ]
+    },
+    {
+      "normalized_label": "hija",
+      "records": [
+        287,
+        288
+      ]
+    },
+    {
+      "normalized_label": "clemencia beatriz suarez suarez",
+      "records": [
+        400,
+        402
+      ]
+    }
+  ],
+  "caution": "Repeated labels suggest review only. Do not merge people by name or placeholders."
+}

@@ -1,0 +1,132 @@
+{
+  "version": 1,
+  "sha": "71a66314a36a9279251bb8985eee75a77b5c7d10712ba33b8836344aa97e26da",
+  "sourceName": "Recorte 01 — ramas Moreno y Rincón (imagen aportada)",
+  "csvHash": "5cef3faf27d983747a4aefb5c0ee4606ee2487b1c8d1263c674ff709f4ea9938",
+  "expected": {
+    "166": "José Leonidas Moreno Piñeros",
+    "167": "Cristina Niño Ulloa",
+    "204": "Luis Alfonso Rincon Cendalez",
+    "206": "Gloria Inés",
+    "207": "Alberto Moreno Niño",
+    "208": "Alicia Puente Dios",
+    "293": "Ramón Alexander Moreno Suarez",
+    "299": "Jose Alberto Moreno Suarez",
+    "301": "Kelly Nataly",
+    "302": "Juan Tellez",
+    "303": "Angela Jimenez",
+    "304": "Johana Moreno Suarez",
+    "307": "Rocio Eliana Dueñas Pacheco",
+    "308": "Selene Patricia Charris Montaño",
+    "309": "Ferney Rivera Arciengas",
+    "310": "Ana Maria Rincón Suárez",
+    "354": "Sofia Moreno Jimenez",
+    "355": "Felipe Moreno Dueñas",
+    "356": "Valeria Moreno Charris",
+    "357": "Alejandra Moreno Jimenez",
+    "358": "Mariana Rivera",
+    "359": "Phillip Benjamin"
+  },
+  "groups": [
+    {
+      "key": "leonidas-cristina",
+      "pair": [
+        166,
+        167
+      ],
+      "children": [
+        207
+      ],
+      "location": "Parte superior central; círculo entre José Leonidas y Cristina, línea roja vertical hasta Alberto.",
+      "note": "El usuario aclaró que la línea roja indica una relación por confirmar. Se mantiene pendiente."
+    },
+    {
+      "key": "gloria-alberto",
+      "pair": [
+        206,
+        207
+      ],
+      "children": [
+        293,
+        299,
+        304
+      ],
+      "location": "Centro izquierdo; círculo entre Gloria y Alberto y tronco que se divide hacia Ramón Alexander, Jose Alberto y Johana."
+    },
+    {
+      "key": "alicia-luis",
+      "pair": [
+        208,
+        204
+      ],
+      "children": [
+        301,
+        310
+      ],
+      "location": "Derecha; círculo entre Alicia y Luis Alfonso, bifurcación hacia Kelly Nataly y Ana Maria."
+    },
+    {
+      "key": "ramon-rocio",
+      "pair": [
+        293,
+        307
+      ],
+      "children": [
+        355
+      ],
+      "location": "Abajo a la izquierda; círculo entre Rocio y Ramón Alexander, línea vertical hacia Felipe."
+    },
+    {
+      "key": "ramon-selene",
+      "pair": [
+        293,
+        308
+      ],
+      "children": [
+        356
+      ],
+      "location": "Abajo a la izquierda; segundo círculo de Ramón Alexander, junto a Selene, con línea hacia Valeria."
+    },
+    {
+      "key": "jose-angela",
+      "pair": [
+        299,
+        303
+      ],
+      "children": [
+        354,
+        357
+      ],
+      "location": "Abajo en el centro; círculo entre Jose Alberto y Angela, bifurcación hacia Sofia y Alejandra."
+    },
+    {
+      "key": "johana-ferney",
+      "pair": [
+        304,
+        309
+      ],
+      "children": [
+        358
+      ],
+      "location": "Abajo en el centro; círculo entre Johana y Ferney, línea vertical hacia Mariana."
+    },
+    {
+      "key": "kelly-juan",
+      "pair": [
+        301,
+        302
+      ],
+      "children": [
+        359
+      ],
+      "location": "Abajo a la derecha; círculo entre Kelly Nataly y Juan, línea vertical hacia Phillip Benjamin."
+    }
+  ],
+  "notes": [
+    "Todas las relaciones son propuestas de lectura visual; las personas conservan sus UUID y nombres existentes.",
+    "Los círculos entre dos personas se registran como uniones o parejas de tipo no determinado; no prueban matrimonio, divorcio, vigencia ni orden temporal.",
+    "Las líneas que salen por el borde superior o izquierdo, incluidas las de Gloria y Alicia, no tienen su otro extremo visible y no se registran.",
+    "No se completan apellidos ausentes ni se trasladan fechas, lugares o estados de vida desde esta imagen.",
+    "Los nombres se cotejaron con los registros del CSV y las etiquetas de la imagen. No se fusionan identidades por apellido."
+  ]
+}

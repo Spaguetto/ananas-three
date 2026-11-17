@@ -1,0 +1,17 @@
+{
+  "unchanged": {
+    "people": true,
+    "personFields": true,
+    "assertions": true,
+    "sources": true,
+    "previousRelationships": true
+  },
+  "relationships": 73,
+  "unlinked": 222,
+  "integrity": [
+    {
+      "quick_check": "ok"
+    }
+  ],
+  "foreignKeys": []
+}
